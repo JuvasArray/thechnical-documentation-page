@@ -1,0 +1,46 @@
+/* ============================================================ */
+/*                           General                            */
+/* ============================================================ */
+.padding-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+h4 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+p {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+a {
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+/* ============================================================ */
+/*                           Fonts                            */
+/* ============================================================ */
+
+.fa {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Lato', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, .nav, .navbar {
+  font-family: "Poiret One", cursive;
+}
