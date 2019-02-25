@@ -44,6 +44,16 @@ h1, h2, h3, h4, h5, h6, .nav, .navbar {
   font-family: "Poiret One", cursive;
 }
 
+#navbar {
+  position: fixed;
+}
+
+#navbar header {
+  padding: 20px;
+  text-space: 1px;
+  font-weight: bolder;
+}
+
 /* ============================================================ */
 /*                           Footer                             */
 /* ============================================================ */
