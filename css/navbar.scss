@@ -1,9 +1,11 @@
 #navbar {
-  position: fixed;
+  position: absolute;
+  max-height: 95%;
 }
 
-#navbar header {
-  padding: 20px;
+#navbar > h2 {
+  padding: 10px;
   text-space: 1px;
   font-weight: bolder;
+  color: #ffdf7e;
 }
