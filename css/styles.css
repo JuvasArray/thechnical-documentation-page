@@ -5,18 +5,9 @@ body {
   font-family: monospace;
 }
 
-h4 {
-  color: #000;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 2;
-}
-
 p {
   color: #505050;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 2;
@@ -47,8 +38,9 @@ a {
 }
 
 #navbar {
-  position: absolute;
+  position: relative;
   max-height: 95%;
+  text-align: center;
 }
 
 #navbar > h2 {
@@ -58,16 +50,15 @@ a {
   color: #ffdf7e;
 }
 
+#navbar a:hover {
+  color: green;
+}
+
 /* ============================================================ */
 /*                           Footer                             */
 /* ============================================================ */
-footer li {
-  display: inline;
-  margin-left: 10px;
-}
-
-footer a {
-  color: inherit;
+#Reference {
+  text-align: center !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

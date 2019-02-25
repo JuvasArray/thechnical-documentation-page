@@ -1,6 +1,7 @@
 #navbar {
-  position: absolute;
+  position: relative;
   max-height: 95%;
+  text-align: center;
 }
 
 #navbar > h2 {
@@ -8,4 +9,8 @@
   text-space: 1px;
   font-weight: bolder;
   color: #ffdf7e;
+}
+
+#navbar a:hover {
+  color: green;
 }
