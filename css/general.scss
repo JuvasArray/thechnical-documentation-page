@@ -1,8 +1,14 @@
 /* ============================================================ */
 /*                           General                            */
 /* ============================================================ */
+
 body {
-  font-family: monospace;
+  background-color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #777;
 }
 
 p {
@@ -17,22 +23,11 @@ p {
 a {
   letter-spacing: 2px;
   text-decoration: none;
+  color: #aa0a5f;
 }
 
-.main-section {
-  padding-top: 20px;
-}
 
-.code{
+.code {
   color: #e83e8c;
   font-family: 'Lato', cursive;
-}
-
-#main-doc li {
-  color: #505050;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  line-height: 2;
-  margin-bottom: 20px;
 }

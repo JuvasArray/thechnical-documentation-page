@@ -1,14 +1,19 @@
 #navbar {
-  position: relative;
-  max-height: 95%;
-  text-align: center;
+    background-color: #dddddd;
+    float: left;
+    min-height: 100%;
+    position: fixed;
+    width: 20%;
 }
 
-#navbar > h2 {
+#navbar header {
+  text-align: center;
   padding: 10px;
+  margin-top: 10px;
+  font-size: 24px;
   text-space: 1px;
   font-weight: bolder;
-  color: #ffdf7e;
+  color: #000;
 }
 
 #navbar a:hover {
